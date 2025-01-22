@@ -10,21 +10,77 @@ To showcase the integration of a Navigation Drawer with Fragments to create a fl
 
 <hr><br>
 
-## Steps
+## Demo
 
-1. Clone this Repository
+### Program Function Demonstration
 
+```kotlin
+// filepath: /home/guan/Documents/Code/Navigation-Drawer/app/src/main/java/com/example/navigationdrawer/MainActivity.kt
+// ...existing code...
+class MainActivity : AppCompatActivity() {
+    // ...existing code...
+    private fun setupDrawer() {
+        val drawerLayout: DrawerLayout = findViewById(R.id.drawer_layout)
+        val navView: NavigationView = findViewById(R.id.nav_view)
+        val toggle = ActionBarDrawerToggle(
+            this, drawerLayout, toolbar, R.string.navigation_drawer_open, R.string.navigation_drawer_close
+        )
+        drawerLayout.addDrawerListener(toggle)
+        toggle.syncState()
+        navView.setNavigationItemSelectedListener(this)
+    }
+    // ...existing code...
+}
 ```
+
+<hr><br>
+
+## Features
+
+- Navigation Drawer with multiple menu items
+- Fragment integration
+- Responsive and intuitive UI
+- Easy to navigate
+
+<hr><br>
+
+## Technologies Used
+
+- Kotlin
+- Android Studio
+- XML for layout design
+
+<hr><br>
+
+## Project Setup
+
+1. **Clone this Repository**
+
+```bash
 git clone https://github.com/guanshiyin28/Navigation-Drawer.git
 ```
 
-2. Open the project
-3. Run the project
+2. **Open the project in Android Studio**
+3. **Sync the project with Gradle files**
+4. **Build the project**
+
+<hr><br>
+
+## Steps to Run
+
+1. **Connect an Android device or start an emulator**
+2. **Run the project from Android Studio**
+
+<hr><br>
+
+## License
+
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
 
 <hr><br>
 
 <div align="center">
   <a href="https://www.instagram.com/guanshiyin_/">
-     <img src="https://capsule-render.vercel.app/api?type=waving&height=200&color=20:72aae3,100:cadbf5&section=footer&reversal=false&textBg=false&fontAlignY=50&descAlign=48&descAlignY=59"/>
+  <img src="https://capsule-render.vercel.app/api?type=waving&height=200&color=100:FF0000,20:F0F0F0&section=footer&reversal=false&textBg=false&fontAlignY=50&descAlign=48&descAlignY=59"/>
   </a>
 </div>
