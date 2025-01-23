@@ -1,5 +1,5 @@
 <resources>
-    <string name="app_name">NavigationDrawer</string>
+    <string name="app_name">Navigation</string>
     <string name="navigation_drawer_open">Open navigation drawer</string>
     <string name="navigation_drawer_close">Close navigation drawer</string>
     <string name="nav_header_title">Android Studio</string>
@@ -11,8 +11,8 @@
     <string name="menu_gallery">Gallery</string>
     <string name="menu_slideshow">Slideshow</string>
 
-    <string name="muhammad_agisna_yudiansyah">Muhammad Agisna Yudiansyah</string>
-    <string name="muhammadagisnayudiansyah_mhs.pelitabangsa.ac.id">muhammadagisnayudiansyah@mhs.pelitabangsa.ac.id</string>
+    <string name="guan">Guan</string>
+    <string name="guanshiyinnn_gmail.com">guanshiyinnn@gmail.com</string>
     <string name="menu_chart">Cart</string>
     <string name="menu_map">Maps</string>
     <string name="menu_hotel">Hotel</string>
