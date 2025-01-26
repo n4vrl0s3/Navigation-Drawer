@@ -1,4 +1,4 @@
-# Navigation Drawer APP
+# Navigation Drawer
 
 This repository contains the source code for an Android application demonstrating the implementation of a Navigation Drawer using the Kotlin language within the Android Studio environment. This project showcases how to create a user-friendly and intuitive navigation experience.
 
@@ -81,12 +81,12 @@ git clone https://github.com/guanshiyin28/Navigation-Drawer.git
 
 ## License
 
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+This project is licensed under the Apache-2.0 License. See the [LICENSE](LICENSE) file for details.
 
 <hr><br>
 
 <div align="center">
-  <a href="https://www.instagram.com/guanshiyin_/">
-  <img src="https://capsule-render.vercel.app/api?type=waving&height=200&color=100:FF0000,20:F0F0F0&section=footer&reversal=false&textBg=false&fontAlignY=50&descAlign=48&descAlignY=59"/>
-  </a>
+   <a href="https://www.instagram.com/guanshiyin_/">
+      <img src="https://capsule-render.vercel.app/api?type=waving&height=200&color=100:393E46,20:F7F7F7&section=footer&reversal=false&textBg=false&fontAlignY=50&descAlign=48&descAlignY=59"/>
+   </a>
 </div>
