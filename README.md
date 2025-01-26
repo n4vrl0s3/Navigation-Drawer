@@ -10,7 +10,7 @@ To showcase the integration of a Navigation Drawer with Fragments to create a fl
 
 <hr><br>
 
-## Demo
+## Demonstration
 
 ### Program Function Demonstration
 
