@@ -1,4 +1,4 @@
-package com.guan.navigationdrawer
+package com.yansha.navigationdrawer
 
 import org.junit.Test
 

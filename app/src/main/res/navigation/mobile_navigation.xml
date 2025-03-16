@@ -7,31 +7,31 @@
 
     <fragment
         android:id="@+id/nav_home"
-        android:name="com.guan.navigationdrawer.ui.home.HomeFragment"
+        android:name="com.yansha.navigationdrawer.ui.home.HomeFragment"
         android:label="@string/menu_home"
         tools:layout="@layout/fragment_home" />
 
     <fragment
         android:id="@+id/nav_gallery"
-        android:name="com.guan.navigationdrawer.ui.gallery.GalleryFragment"
+        android:name="com.yansha.navigationdrawer.ui.gallery.GalleryFragment"
         android:label="@string/menu_gallery"
         tools:layout="@layout/fragment_gallery" />
 
     <fragment
         android:id="@+id/nav_slideshow"
-        android:name="com.guan.navigationdrawer.ui.slideshow.SlideshowFragment"
+        android:name="com.yansha.navigationdrawer.ui.slideshow.SlideshowFragment"
         android:label="@string/menu_slideshow"
         tools:layout="@layout/fragment_slideshow" />
 
     <fragment
         android:id="@+id/nav_cart"
-        android:name="com.guan.navigationdrawer.CartFragment"
+        android:name="com.yansha.navigationdrawer.CartFragment"
         android:label="@string/menu_chart"
         tools:layout="@layout/fragment_cart" />
 
     <activity
         android:id="@+id/nav_subway"
-        android:name="com.guan.navigationdrawer.SubWayActivity"
+        android:name="com.yansha.navigationdrawer.SubWayActivity"
         android:label="@string/menu_subway"
         tools:layout="@layout/activity_sub_way"
         />

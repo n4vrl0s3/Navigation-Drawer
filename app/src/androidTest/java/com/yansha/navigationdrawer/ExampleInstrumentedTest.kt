@@ -1,4 +1,4 @@
-package com.guan.navigationdrawer
+package com.yansha.navigationdrawer
 
 import androidx.test.platform.app.InstrumentationRegistry
 import androidx.test.ext.junit.runners.AndroidJUnit4

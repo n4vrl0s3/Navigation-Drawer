@@ -1,4 +1,4 @@
-package com.guan.navigationdrawer.ui.slideshow
+package com.yansha.navigationdrawer.ui.slideshow
 
 import androidx.lifecycle.LiveData
 import androidx.lifecycle.MutableLiveData
